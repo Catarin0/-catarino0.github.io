@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Catzlandia/static/css/main.3b1f5625.chunk.css",
+    "main.js": "/Catzlandia/static/js/main.add4e4eb.chunk.js",
+    "main.js.map": "/Catzlandia/static/js/main.add4e4eb.chunk.js.map",
+    "runtime-main.js": "/Catzlandia/static/js/runtime-main.0cdb0cfb.js",
+    "runtime-main.js.map": "/Catzlandia/static/js/runtime-main.0cdb0cfb.js.map",
+    "static/js/2.2ff161b9.chunk.js": "/Catzlandia/static/js/2.2ff161b9.chunk.js",
+    "static/js/2.2ff161b9.chunk.js.map": "/Catzlandia/static/js/2.2ff161b9.chunk.js.map",
+    "index.html": "/Catzlandia/index.html",
+    "static/css/main.3b1f5625.chunk.css.map": "/Catzlandia/static/css/main.3b1f5625.chunk.css.map",
+    "static/js/2.2ff161b9.chunk.js.LICENSE.txt": "/Catzlandia/static/js/2.2ff161b9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0cdb0cfb.js",
+    "static/js/2.2ff161b9.chunk.js",
+    "static/css/main.3b1f5625.chunk.css",
+    "static/js/main.add4e4eb.chunk.js"
+  ]
+}
