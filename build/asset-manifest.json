@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/catzlandia/static/css/main.3b1f5625.chunk.css",
-    "main.js": "/catzlandia/static/js/main.8c28a433.chunk.js",
-    "main.js.map": "/catzlandia/static/js/main.8c28a433.chunk.js.map",
+    "main.css": "/catzlandia/static/css/main.6834e4b8.chunk.css",
+    "main.js": "/catzlandia/static/js/main.ae5b0baa.chunk.js",
+    "main.js.map": "/catzlandia/static/js/main.ae5b0baa.chunk.js.map",
     "runtime-main.js": "/catzlandia/static/js/runtime-main.7ad0f915.js",
     "runtime-main.js.map": "/catzlandia/static/js/runtime-main.7ad0f915.js.map",
-    "static/js/2.e9173c51.chunk.js": "/catzlandia/static/js/2.e9173c51.chunk.js",
-    "static/js/2.e9173c51.chunk.js.map": "/catzlandia/static/js/2.e9173c51.chunk.js.map",
+    "static/js/2.7d265714.chunk.js": "/catzlandia/static/js/2.7d265714.chunk.js",
+    "static/js/2.7d265714.chunk.js.map": "/catzlandia/static/js/2.7d265714.chunk.js.map",
     "index.html": "/catzlandia/index.html",
-    "static/css/main.3b1f5625.chunk.css.map": "/catzlandia/static/css/main.3b1f5625.chunk.css.map",
-    "static/js/2.e9173c51.chunk.js.LICENSE.txt": "/catzlandia/static/js/2.e9173c51.chunk.js.LICENSE.txt"
+    "static/css/main.6834e4b8.chunk.css.map": "/catzlandia/static/css/main.6834e4b8.chunk.css.map",
+    "static/js/2.7d265714.chunk.js.LICENSE.txt": "/catzlandia/static/js/2.7d265714.chunk.js.LICENSE.txt",
+    "static/media/grossas.34e4b30b.gif": "/catzlandia/static/media/grossas.34e4b30b.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.7ad0f915.js",
-    "static/js/2.e9173c51.chunk.js",
-    "static/css/main.3b1f5625.chunk.css",
-    "static/js/main.8c28a433.chunk.js"
+    "static/js/2.7d265714.chunk.js",
+    "static/css/main.6834e4b8.chunk.css",
+    "static/js/main.ae5b0baa.chunk.js"
   ]
 }
