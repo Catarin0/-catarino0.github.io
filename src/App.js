@@ -1,11 +1,30 @@
 import './App.css';
-import HomePage from "./componentes/HomePage";
+import React from "react";
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+} from "react-router-dom";
+import HomePage from "./pages/HomePage/HomePage";
+import DashPage from "./pages/DashPage/DashPage";
+
 
 function App() {
 
     return (
         <div className="App">
-            <HomePage/>
+            <Router>
+                <div>
+                    <Switch>
+                        <Route path="/dash">
+                            <DashPage/>
+                        </Route>
+                        <Route path="/*">
+                            <HomePage/>
+                        </Route>
+                    </Switch>
+                </div>
+            </Router>
         </div>
 
     );
