@@ -9,3 +9,17 @@
 .MuiFormControl-root{
     margin-bottom: 24px !important;
 }
+
+.MuiOutlinedInput-input{
+    color: white !important;
+}
+
+.MuiTypography-root{
+    text-align: center;
+}
+
+@media (max-width: 760px) {
+    .number-guesser {
+        padding-top: 25vh;
+    }
+}

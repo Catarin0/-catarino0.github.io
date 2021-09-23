@@ -7,7 +7,7 @@ const NumberGuesser: FC = () => {
     const [input, setInput] = useState(0);
     const [randomValue] = useState(Math.floor(Math.random() * (100 - 1 + 1) + 1));
     const [state, setState] = useState("");
-    const [tries,setTries] = useState(1)
+    const [tries,setTries] = useState(0)
 
     const handle = (e) => {
         setInput(
@@ -17,8 +17,9 @@ const NumberGuesser: FC = () => {
 
     useEffect(() => {
 
-
+            console.log(randomValue)
             if (randomValue === input) {
+                setTries(tries+ 1)
                 setState("equal")
             } else if (randomValue > input) {
                 setState("greater")

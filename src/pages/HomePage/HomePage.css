@@ -5,7 +5,22 @@
     flex-direction: column;
 }
 
+@media (max-width: 760px) {
+    .homepage {
+        margin-top: 20vh;
+    }
+}
+
 .MuiOutlinedInput-notchedOutline {
     border-color: aliceblue !important;
 
 }
+
+.MuiOutlinedInput-input{
+    color: white !important;
+}
+
+.MuiInputLabel-root{
+    color: white !important;
+}
+

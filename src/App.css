@@ -3,15 +3,6 @@
     height: 100%;
 }
 
-
-@media (max-width: 760px) {
-    .App {
-        width: auto;
-        margin-top: 20vh;
-        margin-left: 0;
-    }
-}
-
 h1,h5 {
     color: aliceblue;
 }
