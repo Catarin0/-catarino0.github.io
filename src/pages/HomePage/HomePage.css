@@ -3,8 +3,6 @@
     margin-top: 35vh;
     display: flex;
     flex-direction: column;
-    width: 300px;
-    margin-left: 85vh;
 }
 
 .MuiOutlinedInput-notchedOutline {
