@@ -4,7 +4,6 @@ import {useHistory} from "react-router";
 import {FC} from "react";
 import {useAlert} from "react-alert";
 import './HomePage.css'
-import NumberGuesser from "../../core/components/NumberGuesser";
 
 const HomePage: FC = () => {
 

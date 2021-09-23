@@ -30,16 +30,14 @@ function App() {
         <div className="App">
             <AlertProvider template={AlertTemplate} {...options}>
                 <Router>
-                    <div>
-                        <Switch>
-                            <Route path="/dash">
-                                <DashPage/>
-                            </Route>
-                            <Route path="/*">
-                                <HomePage/>
-                            </Route>
-                        </Switch>
-                    </div>
+                    <Switch>
+                        <Route path="/dash">
+                            <DashPage/>
+                        </Route>
+                        <Route path="/*">
+                            <HomePage/>
+                        </Route>
+                    </Switch>
                 </Router>
             </AlertProvider>
         </div>

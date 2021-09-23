@@ -1,14 +1,11 @@
-.homepage{
+.homepage {
     text-align: center;
-    margin-top: 35vh;
     display: flex;
     flex-direction: column;
-}
-
-@media (max-width: 760px) {
-    .homepage {
-        margin-top: 20vh;
-    }
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #282c34;
 }
 
 .MuiOutlinedInput-notchedOutline {
@@ -16,11 +13,11 @@
 
 }
 
-.MuiOutlinedInput-input{
+.MuiOutlinedInput-input {
     color: white !important;
 }
 
-.MuiInputLabel-root{
+.MuiInputLabel-root {
     color: white !important;
 }
 
