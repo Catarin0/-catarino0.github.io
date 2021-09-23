@@ -7,13 +7,15 @@ import {
 } from "react-router-dom";
 import HomePage from "./pages/HomePage/HomePage";
 import DashPage from "./pages/DashPage/DashPage";
-import { transitions, positions, Provider as AlertProvider } from 'react-alert'
+import {transitions, positions, Provider as AlertProvider} from 'react-alert'
 import AlertTemplate from 'react-alert-template-basic'
 
 
 function App() {
 
-    // optional configuration
+    //optional configuration
+    //npm run build
+    //npm run deploy
     const options = {
         // you can also just use 'bottom center'
         position: positions.BOTTOM_CENTER,
