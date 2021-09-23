@@ -1,0 +1,11 @@
+.number-guesser{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+.MuiFormControl-root{
+    margin-bottom: 24px !important;
+}

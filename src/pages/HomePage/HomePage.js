@@ -2,6 +2,9 @@ import React, {useState} from 'react';
 import {Button, TextField} from "@mui/material";
 import {useHistory} from "react-router";
 import {FC} from "react";
+import {useAlert} from "react-alert";
+import './HomePage.css'
+import NumberGuesser from "../../core/components/NumberGuesser";
 
 const HomePage: FC = () => {
 
@@ -12,15 +15,19 @@ const HomePage: FC = () => {
 
     const history = useHistory();
 
+    const alert = useAlert();
+
     const routeChange = () => {
         let path = "/dash";
         history.push(path);
     }
 
-
     const handleLogin = () => {
         if (psw === "admin" && user === "admin") {
             routeChange()
+            alert.success("Login successfully!")
+        } else {
+            alert.error("Verify username and password!")
         }
     }
 
@@ -36,7 +43,7 @@ const HomePage: FC = () => {
     }
 
     return (
-        <div>
+        <div className="homepage">
             <h1>Catzlandia</h1>
             <div className="spaceButtonLogin">
                 <TextField
