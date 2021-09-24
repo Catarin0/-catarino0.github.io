@@ -5,7 +5,7 @@ import './NumberGuesser.css'
 const NumberGuesser: FC = () => {
 
     const [input, setInput] = useState(0);
-    const [randomValue] = useState(Math.floor(Math.random() * (100 - 1 + 1) + 1));
+    const [randomValue, setRandomValue] = useState(Math.floor(Math.random() * (100 - 1 + 1) + 1));
     const [state, setState] = useState("");
 
     const handle = (e) => {
@@ -14,10 +14,16 @@ const NumberGuesser: FC = () => {
         );
     }
 
-    useEffect(() => {
+    const delay = ms => new Promise(res => setTimeout(res, ms));
 
-         if (randomValue === input) {
+    useEffect(async () => {
+
+            console.log(randomValue)
+
+            if (randomValue === input) {
                 setState("equal")
+                await delay(5000)
+                setRandomValue(Math.floor(Math.random() * (100 - 1 + 1) + 1))
             } else if (randomValue > input) {
                 setState("greater")
             } else if (randomValue < input) {
@@ -28,7 +34,7 @@ const NumberGuesser: FC = () => {
                 setState("none")
             }
         }
-        , [input,randomValue])
+        , [input, randomValue])
 
 
     const print = (value) => {
@@ -39,7 +45,7 @@ const NumberGuesser: FC = () => {
             case "lower" :
                 return <Typography variant="h5">The number is lower then {input} !</Typography>
             case "equal" :
-                return <Typography variant="h5">Good Job, the number was {randomValue} !</Typography>
+                return <Typography variant="h5">Good Job, the number was {randomValue} , new game starting in 5 seconds!</Typography>
             default:
                 return;
 

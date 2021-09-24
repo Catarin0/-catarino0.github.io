@@ -24,11 +24,15 @@ const DashPage: FC = () => {
     return (
         <div className="dash">
             <Menu>
-                <Button variant="contained">CV</Button>
-                <br/>
-                <Button variant="contained" onClick={() => setGuessGame(true)}>Games</Button>
-                <br/>
-                <Button variant="contained" onClick={handleExit}>Exit</Button>
+                <div className="button_spacer">
+                    <Button variant="contained">CV</Button>
+                </div>
+                <div className="button_spacer">
+                    <Button variant="contained" onClick={() => setGuessGame(true)}>Games</Button>
+                </div>
+                <div className="button_spacer">
+                    <Button variant="contained" onClick={handleExit}>Exit</Button>
+                </div>
             </Menu>
             {guessGame && <NumberGuesser/>}
         </div>

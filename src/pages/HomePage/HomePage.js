@@ -4,6 +4,8 @@ import {useHistory} from "react-router";
 import {FC} from "react";
 import {useAlert} from "react-alert";
 import './HomePage.css'
+import Video from "../../videos/video.mp4"
+import VideoBg from "reactjs-videobg";
 
 const HomePage: FC = () => {
 
@@ -43,8 +45,11 @@ const HomePage: FC = () => {
 
     return (
         <div className="homepage">
+            <VideoBg>
+                <VideoBg.Source src={Video} type="video/mp4" />
+            </VideoBg>
             <h1>Catzlandia</h1>
-            <div className="spaceButtonLogin">
+            <div>
                 <TextField
                     id="outlined-name"
                     label="Username"
@@ -52,7 +57,7 @@ const HomePage: FC = () => {
                     onChange={handleUser}
                 />
             </div>
-            <div className="spaceButtonLogin">
+            <div>
                 <TextField
                     id="outlined-password-input"
                     label="Password"
